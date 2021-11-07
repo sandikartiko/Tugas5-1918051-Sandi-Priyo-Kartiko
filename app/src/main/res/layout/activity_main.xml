@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/po">
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="#12090808" />
+
+    <Button
+        android:id="@+id/button_time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#0E0D0D"
+        android:drawableLeft="@drawable/ic_baseline_more_time_24"
+        android:text="Open The Alarm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_time_picker"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#0E0D0D"
+        android:drawableLeft="@drawable/ic_baseline_stop_circle_24"
+        android:text="Cancel Alarm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#F7F8F5"
+        android:backgroundTint="#F6F0F2"
+        android:text="     HI SANDI PRIYO KARTIKO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>
